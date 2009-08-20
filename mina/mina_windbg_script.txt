@@ -1,0 +1,5 @@
+.sympath c:\teh_mina\syms\
+.reload
+.logopen /t c:\teh_mina\logs\mina_logs
+vertarget
+bp jscript!COlescript::compile ".echo --- JAVASCRIPT COMPILE ---; r esp; du (@esp+8); .echo ------------;g;"
